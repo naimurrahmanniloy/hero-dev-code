@@ -4,11 +4,31 @@
   box-sizing: border-box;
 }
 
+/* sheared style  */
+.logo h2 {
+  font-size: 45px;
+  font-weight: 900;
+}
 .font-open-sans {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
 }
+.main-color {
+  color: #fd6e0a;
+}
+.btn {
+  background-color: #fd6e0a;
+  color: #ffffff;
+  border: none;
+  padding: 18px 35px;
+  font-size: 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
 
+/* main style  */
 header {
   background-color: #fff8f3;
   padding-top: 50px;
@@ -18,4 +38,24 @@ nav {
   width: 59%;
   max-width: 1140px;
   margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu {
+  display: flex;
+  gap: 51px;
+  list-style: none;
+  align-items: center;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #474747;
+  font-size: 20px;
+  line-height: 25px;
+  transition: all 0.3s ease-in-out;
+}
+.menu li a:hover {
+  color: #fd6e0a;
 }
